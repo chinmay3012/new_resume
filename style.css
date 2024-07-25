@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #333;
+    color: #fff;
+}
+
+.content-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s;
+}
+
+#section1 {
+    background-color: #f1c40f;
+}
+
+#section2 {
+    background-color: #e74c3c;
+}
+
+#section3 {
+    background-color: #3498db;
+}
+
+.content {
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+p {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.animated {
+    transform: rotateY(360deg);
+    transition: transform 1s;
+}
+
+.animated-trigger {
+    transform: rotateY(0deg);
+}

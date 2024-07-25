@@ -1,0 +1,85 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff; /* Set the text color to white for better readability on dark backgrounds */
+    background: #0f0f0f; /* A consistent dark background for the entire page */
+    font-family: "Caudex" , serif ;   
+ font-style: bold;
+ font-weight: bolder;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    background: linear-gradient(45deg, #5a5c31, #0d543d); /* A sleek, scientific gradient */
+    color: #fff;
+}
+
+.content-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 1s ease-in-out, transform 1s ease-in-out; /* Smooth and elegant transitions */
+    background: #0f0f0f; /* Initial background color */
+}
+
+#section1 {
+    background: linear-gradient(45deg, #373737, #434343);
+}
+
+#section2 {
+    background: linear-gradient(45deg, #373737, #434343);
+}
+
+#section3 {
+    background: linear-gradient(45deg, #373737, #434343);
+}
+
+.content {
+    text-align: center;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out; /* Smooth fade-in and slide-up */
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+p {
+    max-width: 600px;
+    margin: 20px auto;
+    color: #dcdcdc; /* Set a lighter text color for better readability */
+}
+
+.animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.animated-trigger {
+    transform: rotateY(0deg);
+}
+button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+button{
+    height:50px;
+    width :150px;
+    border-radius: 10%;
+    font-size: larger;
+    background-color: rgb(25, 208, 224);
+    color: White;
+    
+    
+}
+#footer{
+    display: block;
+    height:100px;
+    text-align: center;
+    font-size:larger ;
+    padding-top:20px;
+}
